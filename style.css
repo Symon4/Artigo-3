@@ -1,0 +1,75 @@
+body{
+    background-image: url("imagens/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: scroll;
+
+    min-height: 50%;
+
+    text-align: center;
+}
+
+.imagem{
+    width: 300px;
+
+    border: 2px groove black;
+
+    border-radius: 10px;
+}
+
+h1{
+    text-decoration: underline;
+
+    padding-top: 70px;
+
+    padding-bottom: 50px;
+}
+
+h2{
+    padding-bottom: 20px;
+
+    text-decoration: underline red;
+}
+
+h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.titulo{
+    font-size: 25px;
+    font-family: monospace, sans-serif;
+    
+    text-decoration: underline; 
+}
+
+#content{
+    border-radius: 100px;
+
+    background-color: rgba(241, 241, 241, 0.541);
+
+    font: 17px "Arial";
+}
+
+.noticia{
+    border: groove, rgb(0,0,0);
+
+    background-color: rgb(253, 253, 253);
+
+    text-align: center;
+}
+
+.frases{
+    text-align: left;
+
+    padding: 15px;
+
+    font-weight: bold;
+}
+
+.fonte{
+    font-size: 10px;
+   
+    padding: 5px;
+}
